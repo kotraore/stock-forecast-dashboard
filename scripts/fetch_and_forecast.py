@@ -32,6 +32,7 @@ DEFAULT_TICKERS = [
     "GC=F",   # Gold futures
     "SI=F",   # Silver futures
     "HG=F",   # Copper futures
+    "LIT",    # Lithium ETF proxy
 ]
 
 
