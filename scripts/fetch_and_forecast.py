@@ -29,6 +29,9 @@ DEFAULT_TICKERS = [
     "MDB",
     "BTG",
     "BTO.TO",
+    "GC=F",   # Gold futures
+    "SI=F",   # Silver futures
+    "HG=F",   # Copper futures
 ]
 
 
