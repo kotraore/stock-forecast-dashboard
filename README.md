@@ -57,7 +57,8 @@ This project is for educational purposes only. Forecasts are experimental and **
 This repo is wired for a fully automated, read-only dashboard:
 
 - `Deploy Dashboard` workflow packages `frontend/` plus `data/` and publishes it to GitHub Pages whenever you push changes.
-- `Refresh Forecast Data` workflow runs daily at 07:00 UTC (and on-demand) to pull prices, rebuild forecasts, and commit the refreshed `data/summary.json` back to `main`.
+- `Refresh Forecast Data` workflow runs automatically every 15 minutes (and on-demand) to pull prices, rebuild forecasts, and commit the refreshed `data/summary.json` back to `main`.
+- Use the **Refresh data** button on the dashboard (top-right) to force a fresh fetch of `summary.json` after a workflow run completes.
 
 Once the repo is on GitHub with Pages enabled, you’ll have a live URL where you can type any tracked ticker and immediately see the latest snapshot + 7‑day outlook.
 

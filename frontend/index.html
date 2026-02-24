@@ -24,9 +24,32 @@
     header {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 12px;
       margin-bottom: 32px;
       max-width: 960px;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    #refresh-btn {
+      border: none;
+      border-radius: 999px;
+      background: rgba(59,130,246,0.9);
+      color: white;
+      font-weight: 600;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+    #refresh-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    #refresh-btn:hover:not(:disabled) {
+      transform: translateY(-1px);
     }
     header h1 {
       margin: 0;
@@ -96,14 +119,18 @@
   <header>
     <h1>Market Pulse</h1>
     <p>Daily startup-focused forecasts and signals. Search a symbol to jump to its card.</p>
-    <input id="search" type="text" placeholder="Search ticker (e.g., SNOW)" />
+    <div class="controls">
+      <input id="search" type="text" placeholder="Search ticker (e.g., SNOW)" />
+      <button id="refresh-btn">Refresh data</button>
+    </div>
     <small id="generated"></small>
   </header>
   <section id="cards"></section>
 
   <script>
-    async function loadData() {
-      const res = await fetch('./data/summary.json');
+    async function loadData(force = false) {
+      const url = force ? `./data/summary.json?t=${Date.now()}` : './data/summary.json';
+      const res = await fetch(url, { cache: force ? 'no-store' : 'default' });
       if (!res.ok) throw new Error('Failed to load data');
       return res.json();
     }
@@ -130,6 +157,23 @@
       document.getElementById('generated').textContent = `Updated ${new Date(payload.generated_at).toLocaleString()}`;
     }
 
+    function attachRefresh() {
+      const btn = document.getElementById('refresh-btn');
+      btn.addEventListener('click', async () => {
+        btn.disabled = true;
+        btn.textContent = 'Refreshing…';
+        try {
+          const payload = await loadData(true);
+          renderCards(payload);
+        } catch (err) {
+          alert('Refresh failed: ' + err.message);
+        } finally {
+          btn.disabled = false;
+          btn.textContent = 'Refresh data';
+        }
+      });
+    }
+
     function setupSearch() {
       const input = document.getElementById('search');
       input.addEventListener('input', () => {
@@ -145,6 +189,7 @@
       document.getElementById('cards').innerHTML = `<p>Failed to load data: ${err.message}</p>`;
     });
     setupSearch();
+    attachRefresh();
   </script>
 </body>
 </html>
