@@ -1,0 +1,44 @@
+name: Refresh Forecast Data
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # 07:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run forecasting pipeline
+        run: |
+          python scripts/fetch_and_forecast.py
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet data/summary.json; then
+            echo "No data changes; skipping commit."
+            exit 0
+          fi
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/summary.json
+          git commit -m "chore(data): refresh forecast snapshots"
+          git push
