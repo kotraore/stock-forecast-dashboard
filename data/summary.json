@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T07:49:13.186428+00:00",
+  "generated_at": "2026-04-05T07:55:22.072204+00:00",
   "tickers": [
     "AAPL",
     "MSFT",
@@ -563,17 +563,17 @@
       "ticker": "GOOGL",
       "latest_price": 295.77,
       "forecast": [
-        291.46,
-        284.05,
-        287.23,
-        303.75,
-        306.31,
-        311.32,
-        313.54
+        291.44,
+        284.03,
+        287.21,
+        303.71,
+        306.28,
+        311.28,
+        313.48
       ],
-      "next_day_price": 291.46,
+      "next_day_price": 291.44,
       "next_day_pct": -1.46,
-      "pct_change_7d": 6.01,
+      "pct_change_7d": 5.99,
       "momentum_5d": 7.81,
       "annualized_vol": 28.67,
       "signal": "bullish",
@@ -1103,17 +1103,17 @@
       "ticker": "META",
       "latest_price": 574.46,
       "forecast": [
-        566.11,
-        567.27,
-        570.77,
-        583.88,
-        586.66,
-        588.59,
-        589.99
+        565.45,
+        566.45,
+        569.66,
+        582.39,
+        584.84,
+        586.41,
+        587.43
       ],
-      "next_day_price": 566.11,
-      "next_day_pct": -1.45,
-      "pct_change_7d": 2.7,
+      "next_day_price": 565.45,
+      "next_day_pct": -1.57,
+      "pct_change_7d": 2.26,
       "momentum_5d": 9.27,
       "annualized_vol": 37.62,
       "signal": "watch",
@@ -3261,21 +3261,21 @@
     },
     {
       "ticker": "GC=F",
-      "latest_price": 4651.5,
+      "latest_price": 4702.7,
       "forecast": [
-        4862.59,
-        4724.78,
-        4880.18,
-        5343.89,
-        5529.53,
-        5769.01,
-        5957.33
+        4816.67,
+        4865.29,
+        4973.67,
+        5158.35,
+        5275.21,
+        5433.95,
+        5532.77
       ],
-      "next_day_price": 4862.59,
-      "next_day_pct": 4.54,
-      "pct_change_7d": 28.07,
-      "momentum_5d": 3.55,
-      "annualized_vol": 34.49,
+      "next_day_price": 4816.67,
+      "next_day_pct": 2.42,
+      "pct_change_7d": 17.65,
+      "momentum_5d": 4.69,
+      "annualized_vol": 34.4,
       "signal": "bullish",
       "history": [
         {
@@ -3516,7 +3516,7 @@
         },
         {
           "ds": "2026-04-02",
-          "y": 4651.5
+          "y": 4702.7001953125
         }
       ],
       "forecast_dates": [
@@ -3531,22 +3531,22 @@
     },
     {
       "ticker": "SI=F",
-      "latest_price": 72.74,
+      "latest_price": 73.17,
       "forecast": [
-        72.2,
-        69.65,
-        69.44,
-        72.72,
-        72.3,
-        72.29,
-        70.08
+        74.7,
+        74.08,
+        74.95,
+        78.52,
+        79.33,
+        80.64,
+        79.78
       ],
-      "next_day_price": 72.2,
-      "next_day_pct": -0.73,
-      "pct_change_7d": -3.64,
-      "momentum_5d": 4.59,
-      "annualized_vol": 83.18,
-      "signal": "watch",
+      "next_day_price": 74.7,
+      "next_day_pct": 2.09,
+      "pct_change_7d": 9.03,
+      "momentum_5d": 5.21,
+      "annualized_vol": 83.46,
+      "signal": "bullish",
       "history": [
         {
           "ds": "2026-01-07",
@@ -3786,7 +3786,7 @@
         },
         {
           "ds": "2026-04-02",
-          "y": 72.73500061035156
+          "y": 73.16999816894531
         }
       ],
       "forecast_dates": [
@@ -3801,21 +3801,21 @@
     },
     {
       "ticker": "HG=F",
-      "latest_price": 5.56,
+      "latest_price": 5.68,
       "forecast": [
-        5.7,
-        5.73,
-        5.8,
-        5.96,
-        6.03,
-        6.12,
-        6.19
+        5.76,
+        5.79,
+        5.88,
+        6.05,
+        6.13,
+        6.24,
+        6.33
       ],
-      "next_day_price": 5.7,
-      "next_day_pct": 2.5,
-      "pct_change_7d": 11.3,
-      "momentum_5d": 1.76,
-      "annualized_vol": 31.19,
+      "next_day_price": 5.76,
+      "next_day_pct": 1.38,
+      "pct_change_7d": 11.41,
+      "momentum_5d": 3.92,
+      "annualized_vol": 31.22,
       "signal": "bullish",
       "history": [
         {
@@ -4056,7 +4056,7 @@
         },
         {
           "ds": "2026-04-02",
-          "y": 5.563000202178955
+          "y": 5.68149995803833
         }
       ],
       "forecast_dates": [
