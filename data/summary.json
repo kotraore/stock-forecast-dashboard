@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T07:50:46.819559+00:00",
+  "generated_at": "2026-04-12T08:04:15.682192+00:00",
   "tickers": [
     "AAPL",
     "MSFT",
@@ -23,17 +23,17 @@
       "ticker": "AAPL",
       "latest_price": 260.48,
       "forecast": [
-        252.34,
-        250.81,
-        254.1,
-        251.89,
-        249.18,
-        244.53,
-        240.46
+        253.04,
+        251.76,
+        255.27,
+        253.38,
+        251.02,
+        246.74,
+        243.06
       ],
-      "next_day_price": 252.34,
-      "next_day_pct": -3.12,
-      "pct_change_7d": -7.69,
+      "next_day_price": 253.04,
+      "next_day_pct": -2.86,
+      "pct_change_7d": -6.69,
       "momentum_5d": 0.63,
       "annualized_vol": 21.3,
       "signal": "watch",
@@ -1103,17 +1103,17 @@
       "ticker": "META",
       "latest_price": 629.86,
       "forecast": [
-        640.31,
-        647.18,
-        645.16,
-        649.54,
-        653.71,
-        655.53,
-        654.02
+        640.6,
+        647.5,
+        645.26,
+        649.67,
+        653.88,
+        655.74,
+        654.27
       ],
-      "next_day_price": 640.31,
-      "next_day_pct": 1.66,
-      "pct_change_7d": 3.84,
+      "next_day_price": 640.6,
+      "next_day_pct": 1.7,
+      "pct_change_7d": 3.88,
       "momentum_5d": 9.92,
       "annualized_vol": 38.54,
       "signal": "watch",
@@ -3002,7 +3002,7 @@
         6.33
       ],
       "next_day_price": 6.94,
-      "next_day_pct": 1.7,
+      "next_day_pct": 1.71,
       "pct_change_7d": -7.12,
       "momentum_5d": 5.41,
       "annualized_vol": 61.26,
@@ -3261,21 +3261,21 @@
     },
     {
       "ticker": "GC=F",
-      "latest_price": 4761.9,
+      "latest_price": 4787.4,
       "forecast": [
-        4790.34,
-        4808.28,
-        4847.45,
-        4853.68,
-        4894.15,
-        4872.45,
-        4862.34
+        4804.11,
+        4823.8,
+        4861.27,
+        4869.35,
+        4911.67,
+        4891.78,
+        4884.58
       ],
-      "next_day_price": 4790.34,
-      "next_day_pct": 0.6,
-      "pct_change_7d": 2.11,
-      "momentum_5d": 2.26,
-      "annualized_vol": 34.1,
+      "next_day_price": 4804.11,
+      "next_day_pct": 0.35,
+      "pct_change_7d": 2.03,
+      "momentum_5d": 2.8,
+      "annualized_vol": 34.08,
       "signal": "watch",
       "history": [
         {
@@ -3516,7 +3516,7 @@
         },
         {
           "ds": "2026-04-10",
-          "y": 4761.89990234375
+          "y": 4787.39990234375
         }
       ],
       "forecast_dates": [
@@ -3531,20 +3531,20 @@
     },
     {
       "ticker": "SI=F",
-      "latest_price": 76.32,
+      "latest_price": 76.48,
       "forecast": [
-        72.73,
-        72.38,
-        73.89,
-        73.51,
-        73.77,
-        71.99,
-        70.77
+        72.24,
+        71.75,
+        72.98,
+        72.45,
+        72.56,
+        70.63,
+        69.3
       ],
-      "next_day_price": 72.73,
-      "next_day_pct": -4.71,
-      "pct_change_7d": -7.28,
-      "momentum_5d": 5.04,
+      "next_day_price": 72.24,
+      "next_day_pct": -5.54,
+      "pct_change_7d": -9.39,
+      "momentum_5d": 5.26,
       "annualized_vol": 82.92,
       "signal": "watch",
       "history": [
@@ -3786,7 +3786,7 @@
         },
         {
           "ds": "2026-04-10",
-          "y": 76.3239974975586
+          "y": 76.4800033569336
         }
       ],
       "forecast_dates": [
@@ -3801,21 +3801,21 @@
     },
     {
       "ticker": "HG=F",
-      "latest_price": 5.87,
+      "latest_price": 5.89,
       "forecast": [
-        5.75,
-        5.75,
+        5.76,
+        5.77,
+        5.81,
         5.79,
+        5.8,
         5.76,
-        5.76,
-        5.72,
-        5.69
+        5.74
       ],
-      "next_day_price": 5.75,
-      "next_day_pct": -2.13,
-      "pct_change_7d": -3.11,
-      "momentum_5d": 5.14,
-      "annualized_vol": 30.26,
+      "next_day_price": 5.76,
+      "next_day_pct": -2.08,
+      "pct_change_7d": -2.53,
+      "momentum_5d": 5.42,
+      "annualized_vol": 30.3,
       "signal": "watch",
       "history": [
         {
@@ -4056,7 +4056,7 @@
         },
         {
           "ds": "2026-04-10",
-          "y": 5.870500087738037
+          "y": 5.886000156402588
         }
       ],
       "forecast_dates": [
