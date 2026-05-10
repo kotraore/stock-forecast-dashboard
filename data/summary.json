@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T08:27:55.129212+00:00",
+  "generated_at": "2026-05-10T08:55:13.973538+00:00",
   "tickers": [
     "AAPL",
     "MSFT",
@@ -293,17 +293,17 @@
       "ticker": "MSFT",
       "latest_price": 415.12,
       "forecast": [
-        418.45,
-        418.16,
-        412.12,
-        413.38,
-        413.77,
-        410.66,
-        412.03
+        418.4,
+        418.09,
+        412.03,
+        413.27,
+        413.64,
+        410.52,
+        411.89
       ],
-      "next_day_price": 418.45,
-      "next_day_pct": 0.8,
-      "pct_change_7d": -0.74,
+      "next_day_price": 418.4,
+      "next_day_pct": 0.79,
+      "pct_change_7d": -0.78,
       "momentum_5d": 0.36,
       "annualized_vol": 29.35,
       "signal": "watch",
@@ -2993,17 +2993,17 @@
       "ticker": "BTO.TO",
       "latest_price": 7.25,
       "forecast": [
-        6.27,
-        6.6,
-        7.75,
-        8.2,
-        8.74,
-        9.19,
-        9.78
+        6.47,
+        6.68,
+        7.28,
+        7.55,
+        7.88,
+        8.08,
+        8.4
       ],
-      "next_day_price": 6.27,
-      "next_day_pct": -13.52,
-      "pct_change_7d": 34.91,
+      "next_day_price": 6.47,
+      "next_day_pct": -10.75,
+      "pct_change_7d": 15.81,
       "momentum_5d": 24.36,
       "annualized_vol": 59.56,
       "signal": "bullish",
@@ -3261,22 +3261,22 @@
     },
     {
       "ticker": "GC=F",
-      "latest_price": 4720.4,
+      "latest_price": 4730.7,
       "forecast": [
-        4649.3,
-        4686.65,
-        4805.37,
-        4850.85,
-        4925.96,
-        4932.08,
-        4969.23
+        4620.52,
+        4650.59,
+        4772.13,
+        4809.6,
+        4875.65,
+        4873.0,
+        4900.38
       ],
-      "next_day_price": 4649.3,
-      "next_day_pct": -1.51,
-      "pct_change_7d": 5.27,
-      "momentum_5d": 4.45,
-      "annualized_vol": 32.64,
-      "signal": "bullish",
+      "next_day_price": 4620.52,
+      "next_day_pct": -2.33,
+      "pct_change_7d": 3.59,
+      "momentum_5d": 4.67,
+      "annualized_vol": 32.65,
+      "signal": "watch",
       "history": [
         {
           "ds": "2026-02-12",
@@ -3516,7 +3516,7 @@
         },
         {
           "ds": "2026-05-08",
-          "y": 4720.39990234375
+          "y": 4730.7001953125
         }
       ],
       "forecast_dates": [
@@ -3531,21 +3531,21 @@
     },
     {
       "ticker": "SI=F",
-      "latest_price": 80.39,
+      "latest_price": 80.86,
       "forecast": [
-        75.58,
-        76.35,
-        80.41,
-        81.37,
-        82.96,
-        82.3,
-        82.72
+        75.75,
+        76.52,
+        80.5,
+        81.47,
+        83.06,
+        82.41,
+        82.85
       ],
-      "next_day_price": 75.58,
-      "next_day_pct": -5.99,
-      "pct_change_7d": 2.89,
-      "momentum_5d": 10.02,
-      "annualized_vol": 82.99,
+      "next_day_price": 75.75,
+      "next_day_pct": -6.33,
+      "pct_change_7d": 2.46,
+      "momentum_5d": 10.66,
+      "annualized_vol": 83.0,
       "signal": "watch",
       "history": [
         {
@@ -3786,7 +3786,7 @@
         },
         {
           "ds": "2026-05-08",
-          "y": 80.3949966430664
+          "y": 80.86499786376953
         }
       ],
       "forecast_dates": [
@@ -3801,21 +3801,21 @@
     },
     {
       "ticker": "HG=F",
-      "latest_price": 6.25,
+      "latest_price": 6.3,
       "forecast": [
-        6.23,
-        6.32,
-        6.45,
-        6.55,
-        6.68,
-        6.78,
-        6.9
+        6.27,
+        6.36,
+        6.5,
+        6.6,
+        6.75,
+        6.85,
+        6.98
       ],
-      "next_day_price": 6.23,
-      "next_day_pct": -0.3,
-      "pct_change_7d": 10.43,
-      "momentum_5d": 7.83,
-      "annualized_vol": 30.14,
+      "next_day_price": 6.27,
+      "next_day_pct": -0.49,
+      "pct_change_7d": 10.9,
+      "momentum_5d": 8.65,
+      "annualized_vol": 30.25,
       "signal": "bullish",
       "history": [
         {
@@ -4056,7 +4056,7 @@
         },
         {
           "ds": "2026-05-08",
-          "y": 6.249000072479248
+          "y": 6.296500205993652
         }
       ],
       "forecast_dates": [
