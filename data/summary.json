@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T09:24:08.737445+00:00",
+  "generated_at": "2026-07-05T09:42:53.718474+00:00",
   "tickers": [
     "AAPL",
     "MSFT",
@@ -293,17 +293,17 @@
       "ticker": "MSFT",
       "latest_price": 390.49,
       "forecast": [
-        386.7,
-        397.25,
-        400.58,
-        399.58,
-        401.6,
-        403.78,
-        403.18
+        386.74,
+        397.35,
+        400.7,
+        399.67,
+        401.72,
+        403.92,
+        403.35
       ],
-      "next_day_price": 386.7,
-      "next_day_pct": -0.97,
-      "pct_change_7d": 3.25,
+      "next_day_price": 386.74,
+      "next_day_pct": -0.96,
+      "pct_change_7d": 3.29,
       "momentum_5d": 4.7,
       "annualized_vol": 34.36,
       "signal": "watch",
