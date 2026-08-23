@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T07:32:06.684233+00:00",
+  "generated_at": "2026-08-23T07:33:34.590721+00:00",
   "tickers": [
     "AAPL",
     "MSFT",
@@ -23,15 +23,15 @@
       "ticker": "AAPL",
       "latest_price": 309.35,
       "forecast": [
-        314.88,
+        314.89,
         316.9,
         318.58,
-        321.46,
-        324.95,
-        326.42,
-        326.66
+        321.47,
+        324.96,
+        326.43,
+        326.67
       ],
-      "next_day_price": 314.88,
+      "next_day_price": 314.89,
       "next_day_pct": 1.79,
       "pct_change_7d": 5.6,
       "momentum_5d": 1.23,
@@ -293,20 +293,20 @@
       "ticker": "MSFT",
       "latest_price": 483.24,
       "forecast": [
-        455.12,
-        461.1,
-        499.77,
-        511.32,
-        526.72,
-        549.51,
-        574.76
+        468.72,
+        460.73,
+        444.26,
+        435.05,
+        426.4,
+        421.66,
+        415.81
       ],
-      "next_day_price": 455.12,
-      "next_day_pct": -5.82,
-      "pct_change_7d": 18.94,
+      "next_day_price": 468.72,
+      "next_day_pct": -3.0,
+      "pct_change_7d": -13.95,
       "momentum_5d": 0.79,
       "annualized_vol": 37.83,
-      "signal": "bullish",
+      "signal": "watch",
       "history": [
         {
           "ds": "2026-05-28",
@@ -563,17 +563,17 @@
       "ticker": "GOOGL",
       "latest_price": 344.82,
       "forecast": [
-        297.58,
-        307.28,
-        375.61,
-        392.76,
-        414.66,
-        438.31,
-        466.39
+        300.16,
+        306.76,
+        363.01,
+        375.67,
+        392.41,
+        410.2,
+        431.73
       ],
-      "next_day_price": 297.58,
-      "next_day_pct": -13.7,
-      "pct_change_7d": 35.26,
+      "next_day_price": 300.16,
+      "next_day_pct": -12.95,
+      "pct_change_7d": 25.2,
       "momentum_5d": 0.24,
       "annualized_vol": 35.98,
       "signal": "bullish",
@@ -3261,21 +3261,21 @@
     },
     {
       "ticker": "GC=F",
-      "latest_price": 4624.1,
+      "latest_price": 4680.6,
       "forecast": [
-        4407.75,
-        4449.64,
-        4659.66,
-        4722.03,
-        4815.91,
-        4882.82,
-        5001.74
+        4405.27,
+        4488.07,
+        4840.37,
+        4960.28,
+        5119.56,
+        5259.97,
+        5462.86
       ],
-      "next_day_price": 4407.75,
-      "next_day_pct": -4.68,
-      "pct_change_7d": 8.17,
-      "momentum_5d": 4.67,
-      "annualized_vol": 26.8,
+      "next_day_price": 4405.27,
+      "next_day_pct": -5.88,
+      "pct_change_7d": 16.71,
+      "momentum_5d": 5.95,
+      "annualized_vol": 27.09,
       "signal": "bullish",
       "history": [
         {
@@ -3516,7 +3516,7 @@
         },
         {
           "ds": "2026-08-21",
-          "y": 4624.10009765625
+          "y": 4680.60009765625
         }
       ],
       "forecast_dates": [
@@ -3531,21 +3531,21 @@
     },
     {
       "ticker": "SI=F",
-      "latest_price": 69.47,
+      "latest_price": 69.53,
       "forecast": [
-        66.25,
-        65.06,
-        62.4,
-        60.66,
-        59.26,
-        56.5,
-        54.57
+        66.83,
+        65.79,
+        63.19,
+        61.63,
+        60.42,
+        57.86,
+        56.14
       ],
-      "next_day_price": 66.25,
-      "next_day_pct": -4.63,
-      "pct_change_7d": -21.45,
-      "momentum_5d": 5.06,
-      "annualized_vol": 50.75,
+      "next_day_price": 66.83,
+      "next_day_pct": -3.88,
+      "pct_change_7d": -19.26,
+      "momentum_5d": 5.16,
+      "annualized_vol": 50.76,
       "signal": "watch",
       "history": [
         {
@@ -3786,7 +3786,7 @@
         },
         {
           "ds": "2026-08-21",
-          "y": 69.46600341796875
+          "y": 69.52999877929688
         }
       ],
       "forecast_dates": [
@@ -3801,21 +3801,21 @@
     },
     {
       "ticker": "HG=F",
-      "latest_price": 6.58,
+      "latest_price": 6.59,
       "forecast": [
-        6.31,
-        6.23,
+        6.32,
+        6.25,
+        6.22,
         6.15,
-        6.06,
-        5.95,
-        5.82,
-        5.68
+        6.07,
+        5.97,
+        5.88
       ],
-      "next_day_price": 6.31,
+      "next_day_price": 6.32,
       "next_day_pct": -4.02,
-      "pct_change_7d": -13.62,
-      "momentum_5d": -0.37,
-      "annualized_vol": 25.21,
+      "pct_change_7d": -10.8,
+      "momentum_5d": -0.26,
+      "annualized_vol": 25.23,
       "signal": "bearish",
       "history": [
         {
@@ -4056,7 +4056,7 @@
         },
         {
           "ds": "2026-08-21",
-          "y": 6.579500198364258
+          "y": 6.586999893188477
         }
       ],
       "forecast_dates": [
