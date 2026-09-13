@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:30:30.454693+00:00",
+  "generated_at": "2026-09-13T12:34:39.551024+00:00",
   "tickers": [
     "AAPL",
     "MSFT",
@@ -23,17 +23,17 @@
       "ticker": "AAPL",
       "latest_price": 332.27,
       "forecast": [
-        325.02,
-        325.92,
-        325.89,
-        327.72,
-        330.55,
-        332.6,
-        333.39
+        325.12,
+        326.07,
+        326.08,
+        327.94,
+        330.83,
+        332.94,
+        333.77
       ],
-      "next_day_price": 325.02,
-      "next_day_pct": -2.18,
-      "pct_change_7d": 0.34,
+      "next_day_price": 325.12,
+      "next_day_pct": -2.15,
+      "pct_change_7d": 0.45,
       "momentum_5d": 3.84,
       "annualized_vol": 27.8,
       "signal": "watch",
@@ -293,17 +293,17 @@
       "ticker": "MSFT",
       "latest_price": 495.63,
       "forecast": [
-        499.74,
-        483.26,
-        433.3,
-        408.71,
-        382.08,
-        357.66,
-        328.82
+        490.89,
+        479.32,
+        452.35,
+        434.85,
+        416.32,
+        400.73,
+        382.28
       ],
-      "next_day_price": 499.74,
-      "next_day_pct": 0.83,
-      "pct_change_7d": -33.66,
+      "next_day_price": 490.89,
+      "next_day_pct": -0.96,
+      "pct_change_7d": -22.87,
       "momentum_5d": -0.81,
       "annualized_vol": 37.77,
       "signal": "bearish",
@@ -3261,21 +3261,21 @@
     },
     {
       "ticker": "GC=F",
-      "latest_price": 4366.2,
+      "latest_price": 4408.9,
       "forecast": [
-        4477.25,
-        4486.36,
-        4407.61,
-        4418.79,
-        4449.19,
-        4444.44,
-        4461.17
+        4485.86,
+        4497.67,
+        4432.67,
+        4446.36,
+        4479.15,
+        4479.52,
+        4494.7
       ],
-      "next_day_price": 4477.25,
-      "next_day_pct": 2.54,
-      "pct_change_7d": 2.18,
-      "momentum_5d": -1.44,
-      "annualized_vol": 26.45,
+      "next_day_price": 4485.86,
+      "next_day_pct": 1.75,
+      "pct_change_7d": 1.95,
+      "momentum_5d": -0.47,
+      "annualized_vol": 26.56,
       "signal": "watch",
       "history": [
         {
@@ -3516,7 +3516,7 @@
         },
         {
           "ds": "2026-09-11",
-          "y": 4366.2001953125
+          "y": 4408.89990234375
         }
       ],
       "forecast_dates": [
@@ -3531,21 +3531,21 @@
     },
     {
       "ticker": "SI=F",
-      "latest_price": 64.55,
+      "latest_price": 65.19,
       "forecast": [
-        67.84,
-        68.24,
-        67.41,
-        67.71,
-        68.68,
-        68.56,
-        68.85
+        67.68,
+        68.21,
+        68.2,
+        68.66,
+        69.78,
+        69.85,
+        70.3
       ],
-      "next_day_price": 67.84,
-      "next_day_pct": 5.09,
-      "pct_change_7d": 6.66,
-      "momentum_5d": -2.26,
-      "annualized_vol": 47.92,
+      "next_day_price": 67.68,
+      "next_day_pct": 3.82,
+      "pct_change_7d": 7.84,
+      "momentum_5d": -1.3,
+      "annualized_vol": 47.76,
       "signal": "watch",
       "history": [
         {
@@ -3786,7 +3786,7 @@
         },
         {
           "ds": "2026-09-11",
-          "y": 64.55400085449219
+          "y": 65.18800354003906
         }
       ],
       "forecast_dates": [
@@ -3801,20 +3801,20 @@
     },
     {
       "ticker": "HG=F",
-      "latest_price": 6.47,
+      "latest_price": 6.55,
       "forecast": [
-        6.68,
-        6.63,
-        6.4,
+        6.71,
+        6.65,
+        6.41,
         6.33,
-        6.22,
-        6.08,
-        5.93
+        6.21,
+        6.06,
+        5.9
       ],
-      "next_day_price": 6.68,
-      "next_day_pct": 3.31,
-      "pct_change_7d": -8.37,
-      "momentum_5d": -1.93,
+      "next_day_price": 6.71,
+      "next_day_pct": 2.41,
+      "pct_change_7d": -9.89,
+      "momentum_5d": -0.74,
       "annualized_vol": 25.65,
       "signal": "bearish",
       "history": [
@@ -4056,7 +4056,7 @@
         },
         {
           "ds": "2026-09-11",
-          "y": 6.4695000648498535
+          "y": 6.547999858856201
         }
       ],
       "forecast_dates": [
